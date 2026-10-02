@@ -1,0 +1,32 @@
+{
+  "name": "paseo-plugin-composer-usage",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Plan usage limits of each agent's provider as a Paseo composer pill",
+  "license": "MIT",
+  "files": [
+    "paseo-plugin.json",
+    "index.client.tsx",
+    "index.server.ts",
+    "client/",
+    "shared/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "check:hermes": "node scripts/check-hermes.mjs"
+  },
+  "devDependencies": {
+    "@getpaseo/client": "0.10.3",
+    "@getpaseo/plugin": "0.10.3",
+    "@getpaseo/protocol": "0.10.3",
+    "@types/react": "~19.2.0",
+    "esbuild": "^0.28.2",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "typescript": "^5.9.3",
+    "zod": "^4.4.3"
+  },
+  "repository": "github:DarWiM/paseo-plugin-composer-usage"
+}
